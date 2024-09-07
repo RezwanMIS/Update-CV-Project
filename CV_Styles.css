@@ -1,0 +1,131 @@
+
+
+/* ___________Style Start_______ */
+*{
+
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+/* ___________Body Style Start_______ */
+body{
+ 
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* ___________Container Style Start_______ */
+.container{
+max-width: 1000px;
+background-color: #e4f9e4;
+margin: 0 auto;
+padding: 20px;
+
+}
+
+/* ___________Profile Style Start_______ */
+.profile{
+width: 100px;
+height: 120px;
+border: 3px solid white;
+border-radius: 50%;
+float: left;
+}
+/* ___________Bio Style Start_______ */
+.bio{
+float: left;
+padding: 14px;
+}
+/* ___________(H1-H6 Style Start)_______ */
+h1,h2,h3,h4,h5,h6{
+color: #11999e;
+}
+
+
+/* ___________(Contact Style Start)_______ */
+.contact{
+float: right;
+padding: 30px;
+}
+
+.contact a{
+text-decoration: none;
+color: teal;
+font-weight: bold;
+}
+
+.contact a:hover{
+text-decoration: underline;
+color: tomato;
+}
+
+
+/* ___________(Div clear Style Start)_______ */
+.clear{
+clear: both;
+}
+
+/* ___________(hr Style Start)_______ */
+.hr-style{
+border: solid black 3px;
+width: 100%;
+margin: 20px auto;
+border-bottom: none;
+}
+
+/* ___________(laft & right div Style Start)_______ */
+.laft-div{
+  width: 35%;
+  float: left;
+}
+
+.right-div{
+  width: 65%;
+  float: left;
+  color: teal;
+}
+
+.edu-laft{
+  width: 50%;
+  float: left;
+  color: teal;
+}
+
+.edu-right{
+  width: 50%;
+  float: left;
+  color: teal;
+   
+}
+
+.reference-laft{
+  width: 50%;
+  float: left;
+  color: teal;
+
+}
+.reference-right{
+  width: 50%;
+  float: left;
+  color: teal;
+
+}
+
+.common-hr{
+border: solid black 1px;
+border-bottom: none;
+width: 100%;
+margin: 20px auto;
+
+}
+
+.bottom{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
